@@ -1,7 +1,7 @@
 import useAppStore from "@/store";
 import axios from "axios";
 
-const DEPLOYED_BASE_URL = "https://ec2-13-201-51-186.ap-south-1.compute.amazonaws.com/v1/api"
+const DEPLOYED_BASE_URL = "https://pratham.agrivision4u.com/v1/api"
 
 export const axiosInstance = axios.create({
   baseURL: DEPLOYED_BASE_URL,

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "https://ec2-13-201-51-186.ap-south-1.compute.amazonaws.com/v1/api",
+  baseURL: "https://pratham.agrivision4u.com/v1/api",
 });
 
 export const loginUser = ({
